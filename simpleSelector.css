@@ -1,0 +1,22 @@
+#a{
+    color: blueviolet;
+    background-color: chocolate;
+}
+
+#b{
+    color: violet;
+    background-color: slategray;
+}
+
+.c{
+    color: orangered;
+    background-color: black;
+}
+article,section,nav{
+    color: crimson;
+    background-color: aqua;
+}
+
+*{
+    background-color: peru;
+}

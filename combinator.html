@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Combinator Selector</title>
+    <style>
+      /* desendent Selector */
+      div h1 {
+        color: red;
+      }
+      div h2 {
+        color: green;
+      }
+      /* Child Selector */
+      article > h1 {
+        color: brown;
+        background-color: yellow;
+      }
+      article > h2 {
+        color: aqua;
+        background-color: black;
+      }
+      /* Adjecent Sibiling  */
+      div + p {
+        color: darkmagenta;
+        background-color: burlywood;
+      }
+      div ~ p {
+        color: blueviolet;
+        background-color: aquamarine;
+      }
+      * {
+        background-color: bisque;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>Direct Child Of Div</h1>
+      <h2>Direct Child of Div</h2>
+      <article>
+        <h1>Indirect child of Div</h1>
+        <h2>Indirect child of Div</h2>
+      </article>
+    </div>
+
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+  </body>
+</html>

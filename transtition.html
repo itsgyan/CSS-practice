@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transtition</title>
+    <style>
+      body {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: hotpink;
+      }
+      #a {
+        height: 100px;
+        width: 100px;
+        background-color: black;
+        font-size: 40px;
+        color: red;
+      }
+      #a:hover {
+        transform: translate(500px);
+        transition-property: translate;
+        transition-duration: 4s;
+        transition-timing-function: ease-in;
+        transition-delay: 2ms;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="a">Box</div>
+  </body>
+</html>

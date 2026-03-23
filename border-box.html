@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Border-Box/Content-Box</title>
+    <style>
+      #a {
+        width: 500px;
+        height: 300px;
+        background-color: grey;
+        box-sizing: content-box;
+        padding: 50px;
+        margin-bottom: 20px;
+        border: 10px groove red;
+      }
+
+      #b {
+        width: 500px;
+        height: 300px;
+        background-color: grey;
+        box-sizing: border-box;
+        padding: 50px;
+        border: 10px solid red;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="a">
+      <h1>Content-Box</h1>
+    </div>
+    <div id="b">
+      <h1>Border-Box</h1>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PsuedoElement</title>
+    <style>
+      p::first-letter {
+        color: red;
+      }
+      p::first-line {
+        color: blue;
+      }
+      p::before {
+        content: url(./icons8-html-100.png);
+      }
+      p::after {
+        content: url(./icons8-css-96.png);
+      }
+
+      p::selection {
+        color: red;
+        background-color: black;
+      }
+
+      ul li::marker {
+        content: "🍌";
+      }
+
+      input::placeholder {
+        color: blueviolet;
+      }
+
+      * {
+        background-color: blanchedalmond;
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+      reiciendis sunt voluptatum quidem aliquid deserunt, ducimus totam
+      consectetur eaque sint recusandae architecto odit incidunt nisi dolor
+      mollitia itaque id explicabo! In perspiciatis, nostrum vel facere corrupti
+      odit libero, vero illo alias, quia cum! Quae ipsa temporibus ut delectus,
+      obcaecati voluptates laudantium, voluptatum consequuntur atque unde
+      ratione. Libero quaerat veniam, quos incidunt dicta, corrupti quidem sit
+      maiores laboriosam quae commodi ducimus necessitatibus atque! Id quidem
+      ratione aperiam pariatur obcaecati doloremque quasi voluptatibus quam in
+      minima! Vitae recusandae nihil itaque expedita voluptas atque
+      perspiciatis, facilis nulla accusantium perferendis hic nostrum dicta
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa assumenda
+      ducimus rem sequi! Accusantium repellat est ipsam quia ipsa cupiditate
+      nemo nulla cum quos, dolore deleniti, voluptate illum. Illum dolores
+      dolore dolorem cum modi, iure, laboriosam magni voluptatum a voluptas fuga
+      asperiores suscipit enim sequi, ad earum facilis. Voluptatum pariatur
+      corporis labore, dolorem quisquam necessitatibus est? Voluptas illo, in
+      dolore ex tempora odit ea pariatur quod temporibus. Ut in, voluptatem
+      molestiae optio cumque quasi architecto ad consequatur corporis cupiditate
+      delectus tenetur voluptatibus. Enim mollitia molestias rerum voluptates
+      vitae illo aliquid, quibusdam sequi reiciendis voluptas, optio nihil
+      beatae accusamus possimus modi? facere?
+    </p>
+
+    <ul>
+      <li>Avinash</li>
+      <li>Sagar</li>
+      <li>Sudipto</li>
+      <li>Shaan</li>
+      <li>Arjit</li>
+      <li>Ashutosh</li>
+      <li>Siddharth</li>
+    </ul>
+
+    <form action="">
+      <input type="text" name="" id="" placeholder="Enter the Name " />
+    </form>
+  </body>
+</html>
